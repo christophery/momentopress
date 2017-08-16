@@ -25,9 +25,9 @@ add_action('init', 'momentopress_register_css');
 * Create shortcode
 */
 
-function momentopress_shortcode($atts = [], $content = null, $tag = ''){
+function momentopress_shortcode( $atts = [], $content = null, $tag = '' ){
 	//normalize attribute keys, lowercase
-    $atts = array_change_key_case((array)$atts, CASE_LOWER);
+    $atts = array_change_key_case( (array)$atts, CASE_LOWER );
  
     //override default attributes with user attributes
     $wporg_atts = shortcode_atts(
@@ -37,9 +37,9 @@ function momentopress_shortcode($atts = [], $content = null, $tag = ''){
 	);
 
     //build embed code
-	$momento_embed_code = "<div class='momentopress-container'>";
-	$momento_embed_code .=	"<iframe class='momentopress-embed' src='" . $wporg_atts['url'] . "' width='300' height='150' allowfullscreen='allowfullscreen'></iframe>";
-	$momento_embed_code .= "</div>";
+	$momento_embed_code = '<div class="momentopress-container">';
+	$momento_embed_code .=	'<iframe class="momentopress-embed" src="' . $wporg_atts['url'] . '" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>';
+	$momento_embed_code .= '</div>';
 
 	//output embed code
 	return $momento_embed_code;
