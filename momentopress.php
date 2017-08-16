@@ -5,17 +5,19 @@ Description: Add 360° VR images to your WordPress site using Momento360.
 Version:     1.0.0
 Author:      Chris Yee
 Author URI:  https://chrisyee.ca
+License:     GPL3
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: momentopress
 */
 
-function register_styles(){
+function momentopress_register_styles(){
 	wp_register_style( 'momentopress', plugins_url( 'momentopress/css/main.css' ) );
 	wp_enqueue_style( 'momentopress' );
 }
 
-add_action('init', 'register_styles');
+add_action('init', 'momentopress_register_styles');
 
-function create_embed_code($atts = [], $content = null, $tag = ''){
+function momentopress_add_shortcode($atts = [], $content = null, $tag = ''){
 
 	// normalize attribute keys, lowercase
     $atts = array_change_key_case((array)$atts, CASE_LOWER);
@@ -32,5 +34,5 @@ function create_embed_code($atts = [], $content = null, $tag = ''){
 	</div>
 <?php
 }
-add_shortcode('momentopress', 'create_embed_code');
+add_shortcode('momentopress', 'momentopress_add_shortcode');
 ?>
