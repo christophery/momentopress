@@ -38,7 +38,7 @@ function momentopress_shortcode( $atts = [], $content = null, $tag = '' ){
 
     //build embed code
 	$momento_embed_code = '<div class="momentopress-container">';
-	$momento_embed_code .=	'<iframe class="momentopress-embed" src="' . $wporg_atts['url'] . '" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>';
+	$momento_embed_code .=	'<iframe class="momentopress-embed" src="' . $wporg_atts['url'] . '" allowfullscreen="allowfullscreen"></iframe>';
 	$momento_embed_code .= '</div>';
 
 	//output embed code
