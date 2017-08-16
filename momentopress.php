@@ -26,7 +26,6 @@ add_action('init', 'momentopress_register_css');
 */
 
 function momentopress_shortcode($atts = [], $content = null, $tag = ''){
-
 	//normalize attribute keys, lowercase
     $atts = array_change_key_case((array)$atts, CASE_LOWER);
  
@@ -44,7 +43,6 @@ function momentopress_shortcode($atts = [], $content = null, $tag = ''){
 
 	//output embed code
 	return $momento_embed_code;
-
 }
+
 add_shortcode('momentopress', 'momentopress_shortcode');
-?>
