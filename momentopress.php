@@ -10,29 +10,41 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: momentopress
 */
 
-function momentopress_register_styles(){
+/*
+* Register CSS
+*/
+
+function momentopress_register_css(){
 	wp_register_style( 'momentopress', plugins_url( 'momentopress/css/main.css' ) );
 	wp_enqueue_style( 'momentopress' );
 }
 
-add_action('init', 'momentopress_register_styles');
+add_action('init', 'momentopress_register_css');
 
-function momentopress_add_shortcode($atts = [], $content = null, $tag = ''){
+/*
+* Create shortcode
+*/
 
-	// normalize attribute keys, lowercase
+function momentopress_shortcode($atts = [], $content = null, $tag = ''){
+
+	//normalize attribute keys, lowercase
     $atts = array_change_key_case((array)$atts, CASE_LOWER);
  
-    // override default attributes with user attributes
+    //override default attributes with user attributes
     $wporg_atts = shortcode_atts(
     	[
-			'url' => 'https://momento360.com/e/u/a36c75a572b84b70b21432557441d352',
+			'url' => 'https://momento360.com/e/u/a36c75a572b84b70b21432557441d352', //default URL
 		], $atts, $tag
 	);
-?>
-	<div class="momentopress-container">
-		<iframe class="momentopress-embed" src="<?php echo $wporg_atts['url'] ?>" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>
-	</div>
-<?php
+
+    //build embed code
+	$momento_embed_code = "<div class='momentopress-container'>";
+	$momento_embed_code .=	"<iframe class='momentopress-embed' src='" . $wporg_atts['url'] . "' width='300' height='150' allowfullscreen='allowfullscreen'></iframe>";
+	$momento_embed_code .= "</div>";
+
+	//output embed code
+	return $momento_embed_code;
+
 }
-add_shortcode('momentopress', 'momentopress_add_shortcode');
+add_shortcode('momentopress', 'momentopress_shortcode');
 ?>
