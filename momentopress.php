@@ -1,10 +1,11 @@
 <?php
 /*
-* Plugin Name: MomentoPress
-* Description: Add 360° VR images to your WordPress site using Momento360.
-* Version: 1.0
-* Author: Chris Yee
-* Author URI: https://chrisyee.ca
+Plugin Name: MomentoPress
+Description: Add 360° VR images to your WordPress site using Momento360.
+Version:     1.0.0
+Author:      Chris Yee
+Author URI:  https://chrisyee.ca
+Text Domain: momentopress
 */
 
 function register_styles(){
