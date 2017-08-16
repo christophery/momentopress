@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: MomentoPress
-Description: Add 360° VR images to your WordPress site using Momento360.
+Description: Add 360° VR images and photo spheres easily to your WordPress site using Momento360.
 Version:     1.0.0
 Author:      Chris Yee
 Author URI:  https://chrisyee.ca
@@ -32,7 +32,7 @@ function momentopress_shortcode( $atts = [], $content = null, $tag = '' ){
     //override default attributes with user attributes
     $momentopress_atts = shortcode_atts(
     	[
-			'url' => 'https://momento360.com/e/u/a36c75a572b84b70b21432557441d352', //default URL
+			'url' => 'https://momento360.com/e/u/f07d802caeb9499694a0f8cb1e661fde', //default URL
 		], $atts, $tag
 	);
 
