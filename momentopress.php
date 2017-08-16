@@ -15,7 +15,7 @@ Text Domain: momentopress
 */
 
 function momentopress_register_css(){
-	wp_register_style( 'momentopress', plugins_url( 'momentopress/css/main.css' ) );
+	wp_register_style( 'momentopress', plugins_url( 'momentopress/css/momentopress.css' ) );
 	wp_enqueue_style( 'momentopress' );
 }
 
