@@ -30,19 +30,19 @@ function momentopress_shortcode( $atts = [], $content = null, $tag = '' ){
     $atts = array_change_key_case( (array)$atts, CASE_LOWER );
  
     //override default attributes with user attributes
-    $wporg_atts = shortcode_atts(
+    $momentopress_atts = shortcode_atts(
     	[
 			'url' => 'https://momento360.com/e/u/a36c75a572b84b70b21432557441d352', //default URL
 		], $atts, $tag
 	);
 
     //build embed code
-	$momento_embed_code = '<div class="momentopress-container">';
-	$momento_embed_code .=	'<iframe class="momentopress-embed" src="' . $wporg_atts['url'] . '" allowfullscreen="allowfullscreen"></iframe>';
-	$momento_embed_code .= '</div>';
+	$momentopress_embed = '<div class="momentopress-container">';
+	$momentopress_embed .=	'<iframe class="momentopress-embed" src="' . $momentopress_atts['url'] . '" allowfullscreen="allowfullscreen"></iframe>';
+	$momentopress_embed .= '</div>';
 
 	//output embed code
-	return $momento_embed_code;
+	return $momentopress_embed;
 }
 
 add_shortcode('momentopress', 'momentopress_shortcode');
