@@ -13,6 +13,10 @@ Add 360° VR images and videos easily to your WordPress site using Momento360.
 
 MomentoPress is a free WordPress plugin for displaying 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/).
 
+Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPress in one of your websites.
+
+[View Demo](https://chrisyee.ca/momentopress/)
+
 **Features**
 
 * Easy to use
