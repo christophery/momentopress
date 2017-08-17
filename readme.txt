@@ -1,34 +1,34 @@
 === MomentoPress ===
 Contributors: cmyee
-Tags: 360, VR, Virtual Reality, 360 degree images, Momento360, photo spheres
+Tags: 360, VR, Virtual Reality, 360 degree images, Momento360, 360 degree videos, Google Cardboard
 Requires at least: 4.7
 Tested up to: 4.8.1
 Stable tag: 1.0.0
 License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Add 360° VR images and photo spheres easily to your WordPress site using Momento360.
+Add 360° VR images and videos easily to your WordPress site using Momento360.
 
 == Description ==
 
-MomentoPress is a free WordPress plugin for displaying 360° VR images and photo spheres uploaded to [Momento360](https://www.momento360.com/).
+MomentoPress is a free WordPress plugin for displaying 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/).
 
 **Features**
 
 * Easy to use
-* View 360° VR images uploaded to [Momento360](https://www.momento360.com/)
+* View 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/)
 * Works with computers, tablets, smartphones
 * Compatible with Google Cardboard
 * It's responsive!
 
 **Requirements**
 
-* A [Momento360](https://www.momento360.com/) account (Free)
-* 360° VR images or photo spheres
+* A [Momento360](https://www.momento360.com/) account
+* 360° VR images or videos
 
 **Getting started**
 
-1. *Upload* a 360° VR image or photosphere to [Momento360](https://www.momento360.com/).
+1. *Upload* a 360° VR image or video to [Momento360](https://www.momento360.com/).
 2. Get the *share link* to the image on [Momento360](https://www.momento360.com/).
 3. Paste the *share link* in the *url* parameter of the *[momentopress]* shortcode.
 
@@ -38,7 +38,7 @@ MomentoPress is a free WordPress plugin for displaying 360° VR images and photo
 
 **Shortcode Parameters**
 
-* url - URL to the 360° VR image or photo sphere uploaded to [Momento360](https://www.momento360.com/)
+* url - URL to the 360° VR image or video uploaded to [Momento360](https://www.momento360.com/)
 
 == Installation ==
 
@@ -56,17 +56,17 @@ MomentoPress is a free WordPress plugin for displaying 360° VR images and photo
 4. Activate the plugin through the "Plugins" menu in WordPress.
 
 == Frequently Asked Questions ==
-= Where do I upload my 360° VR image? =
+= Where do I upload my 360° VR image/video? =
 You will need to upload it to [Momento360](https://www.momento360.com/).
 
-= Where do I get the share link on Momento360? =
+= How do I get the share link on Momento360? =
 1. Go to *"My Media"* on Momento360.
-1. Click on the image which you want to share.
+1. Click on the image/video which you want to share.
 1. Click the *share* button.
 2. Click *"Share or embed a link"*.
 
-= I have questions/issues regarding Momento360! =
-For questions or issues regarding [Momento360](https://www.momento360.com/), please [contact their support team](http://help.momento360.com/).
+= I need help on Momento360! =
+For questions regarding [Momento360](https://www.momento360.com/), please [view their support page](http://help.momento360.com/) or [view their FAQ](https://www.momento360.com/faq/).
 
 == Changelog ==
 
