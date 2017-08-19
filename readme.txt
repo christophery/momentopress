@@ -1,7 +1,7 @@
 === MomentoPress for Momento360 ===
 Contributors: cmyee
 Tags: 360, VR, Virtual Reality, 360 degree images, Momento360, 360 degree videos, Google Cardboard
-Requires at least: 4.7
+Requires at least: 4.8
 Tested up to: 4.8.1
 Stable tag: 1.0.0
 License: GPL3
@@ -19,7 +19,7 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 
 == Features ==
 
-* Easy to use
+* Very easy and simple to use
 * View 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/)
 * Works with computers, tablets, smartphones
 * Compatible with Google Cardboard
@@ -33,12 +33,12 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 == Getting Started ==
 
 1. *Upload* a 360° VR image or video to [Momento360](https://www.momento360.com/).
-2. Get the *share link* to the image on [Momento360](https://www.momento360.com/).
+2. Get the *share link* to the image or video on [Momento360](https://www.momento360.com/).
 3. Paste the *share link* in the *url* parameter of the *[momentopress]* shortcode.
 
 == Shortcode Example ==
 
-[momentopress url=https://momento360.com/e/u/f07d802caeb9499694a0f8cb1e661fde]
+`[momentopress url=https://momento360.com/e/u/f07d802caeb9499694a0f8cb1e661fde]`
 
 == Shortcode Parameters ==
 
