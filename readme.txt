@@ -17,7 +17,7 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 
 [View Demo](https://chrisyee.ca/momentopress/)
 
-**Features**
+== Features ==
 
 * Easy to use
 * View 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/)
@@ -25,24 +25,31 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 * Compatible with Google Cardboard
 * It's responsive!
 
-**Requirements**
+== Requirements ==
 
 * A [Momento360](https://www.momento360.com/) account
 * 360° VR images or videos
 
-**Getting Started**
+== Getting Started ==
 
 1. *Upload* a 360° VR image or video to [Momento360](https://www.momento360.com/).
 2. Get the *share link* to the image on [Momento360](https://www.momento360.com/).
 3. Paste the *share link* in the *url* parameter of the *[momentopress]* shortcode.
 
-**Shortcode Example**
+== Shortcode Example ==
 
 [momentopress url=https://momento360.com/e/u/f07d802caeb9499694a0f8cb1e661fde]
 
-**Shortcode Parameters**
+== Shortcode Parameters ==
 
 * url - The share link to the 360° VR image or video on [Momento360](https://www.momento360.com/)
+
+== Screenshots ==
+
+1. Pan around the 360° images or videos on desktop
+2. Pan around the 360° images or videos on mobile
+3. Tap the full screen button to enter VR mode
+4. View your 360° images or videos in VR using Google Cardboard
 
 == Installation ==
 
@@ -78,4 +85,4 @@ For questions regarding [Momento360](https://www.momento360.com/), please [view 
 == Changelog ==
 
 = 1.0.0 =
-Initial release
+Initial Release
