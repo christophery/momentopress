@@ -1,4 +1,4 @@
-=== MomentoPress ===
+=== WP MomentoPress ===
 Contributors: cmyee
 Tags: 360, VR, Virtual Reality, 360 degree images, Momento360, 360 degree videos, Google Cardboard
 Requires at least: 4.7
@@ -11,11 +11,11 @@ Add 360° VR images and videos easily to your WordPress site using Momento360.
 
 == Description ==
 
-MomentoPress is a free WordPress plugin for displaying 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/).
+WP MomentoPress is a free WordPress plugin for displaying 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/).
 
-Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPress in one of your websites.
+Feel free to [let me know](https://www.twitter.com/cmyee) if you use WP MomentoPress in one of your websites.
 
-[View Demo](https://chrisyee.ca/momentopress/)
+[View Demo](https://chrisyee.ca/wp-momentopress/)
 
 **Features**
 
@@ -48,16 +48,16 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 
 **Easy Installation**
 
-1. Search for "MomentoPress" via the *Plugins > Add New* screen in your WordPress dashboard.
+1. Search for "WP MomentoPress" via the *Plugins > Add New* screen in the WordPress dashboard.
 2. Click the *Install Now* button.
 3. Click the *Activate* button
 
 **Manual Installation**
 
-1. Search and download MomentoPress via the [WordPress Plugin Directory](https://wordpress.org/plugins/).
-2. Unzip the *momentopress.zip* file.
-3. Upload the momentopress directory to the "/wp-content/plugins/" directory.
-4. Activate the plugin through the "Plugins" menu in WordPress.
+1. Search and download *WP MomentoPress* via the [WordPress Plugin Directory](https://wordpress.org/plugins/).
+2. Unzip the downloaded file.
+3. Upload the plugin directory to the "/wp-content/plugins/" directory of your WordPress installation.
+4. Activate the plugin through the "Plugins" menu the WordPress dashboard.
 
 == Frequently Asked Questions ==
 = Where do I upload my 360° VR image/video? =
@@ -68,9 +68,6 @@ You will need to upload it to [Momento360](https://www.momento360.com/).
 1. Click on the image/video which you want to share.
 1. Click the *share* button.
 2. Click *"Share or embed a link"*.
-
-= I need help on Momento360! =
-For questions regarding [Momento360](https://www.momento360.com/), please [view their support page](http://help.momento360.com/) or [view their FAQ](https://www.momento360.com/faq/).
 
 == Changelog ==
 

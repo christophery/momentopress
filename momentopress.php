@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: MomentoPress
+Plugin Name: WP MomentoPress
 Description: Add 360° VR images and videos easily to your WordPress site using Momento360.
 Version:     1.0.0
 Author:      Chris Yee
