@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Add 360° VR images and videos easily to your WordPress site using Momento360.
+Add 360° VR images and videos easily to your WordPress site using WP MomentoPress for Momento360.
 
 == Description ==
 
