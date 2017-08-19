@@ -38,7 +38,7 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 
 == Shortcode Example ==
 
-`[momentopress url=https://momento360.com/e/u/f07d802caeb9499694a0f8cb1e661fde]`
+[momentopress url=https://momento360.com/e/u/f07d802caeb9499694a0f8cb1e661fde]
 
 == Shortcode Parameters ==
 
