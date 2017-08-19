@@ -69,6 +69,12 @@ You will need to upload it to [Momento360](https://www.momento360.com/).
 1. Click the *share* button.
 2. Click *"Share or embed a link"*.
 
+= Is this an official Momento360 plugin? =
+This is not an official plugin by Momento360 and it is not affilated or supported by Momento360.
+
+= I need help on Momento360! =
+For questions regarding [Momento360](https://www.momento360.com/), please [view their support page](http://help.momento360.com/) or [view their FAQ](https://www.momento360.com/faq/).
+
 == Changelog ==
 
 = 1.0.0 =
