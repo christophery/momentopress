@@ -1,17 +1,17 @@
 === MomentoPress for Momento360 ===
 Contributors: cmyee
-Tags: 360, VR, Virtual Reality, 360 degree images, Momento360, 360 degree videos, Google Cardboard
+Tags: 360, VR, Virtual Reality, 360 degree photos, Momento360, 360 degree videos, Google Cardboard
 Requires at least: 4.8
 Tested up to: 4.8.1
 Stable tag: 1.0.0
 License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Add 360° VR images and videos easily to your WordPress site using MomentoPress for Momento360.
+Add 360° VR photos and videos easily to your WordPress site using MomentoPress for Momento360.
 
 == Description ==
 
-MomentoPress is a free WordPress plugin for displaying 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/).
+MomentoPress is a free WordPress plugin for displaying 360° VR photos and videos uploaded to [Momento360](https://www.momento360.com/).
 
 Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPress in one of your websites.
 
@@ -20,7 +20,7 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 == Features ==
 
 * Very easy and simple to use
-* View 360° VR images and videos uploaded to [Momento360](https://www.momento360.com/)
+* View 360° VR photos and videos uploaded to [Momento360](https://www.momento360.com/)
 * Works with computers, tablets, smartphones
 * Compatible with Google Cardboard
 * It's responsive!
@@ -28,7 +28,7 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 == Requirements ==
 
 * A [Momento360](https://www.momento360.com/) account
-* 360° VR images or videos
+* 360° VR photos or videos
 
 == Getting Started ==
 
@@ -46,10 +46,10 @@ Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPres
 
 == Screenshots ==
 
-1. Pan around the 360° images or videos on desktop
-2. Pan around the 360° images or videos on mobile
+1. Pan around the 360° photos or videos on desktop
+2. Pan around the 360° photos or videos on mobile
 3. Tap the full screen button to enter VR mode
-4. View your 360° images or videos in VR using Google Cardboard
+4. View your 360° photos or videos in VR using Google Cardboard
 
 == Installation ==
 
@@ -83,6 +83,9 @@ This is not an official plugin by Momento360 and it is not affilated or supporte
 For questions regarding [Momento360](https://www.momento360.com/), please [view their support page](http://help.momento360.com/) or [view their FAQ](https://www.momento360.com/faq/).
 
 == Changelog ==
+
+= 1.0.1 =
+Fixed CSS stylesheet path
 
 = 1.0.0 =
 Initial Release
