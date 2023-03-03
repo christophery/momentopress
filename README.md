@@ -3,7 +3,7 @@
 **Contributors:** cmyee  
 **Tags:** 360, VR, Virtual Reality, 360 degree photos, Momento360, 360 degree videos, Google Cardboard  
 **Requires at least:** 4.8  
-**Tested up to:** 5.5  
+**Tested up to:** 6.1  
 **Stable tag:** 1.0.1  
 **License:** GPL3  
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.en.html  
@@ -14,7 +14,7 @@ Add 360° VR photos and videos easily to your WordPress site using MomentoPress 
 
 MomentoPress is a free WordPress plugin for displaying 360° VR photos and videos uploaded to [Momento360](https://www.momento360.com/).
 
-Feel free to [let me know](https://www.twitter.com/cmyee) if you use MomentoPress in one of your websites.
+Feel free to [let me know](https://chrisyee.ca/contact/) if you use MomentoPress in one of your websites.
 
 [View Demo](https://chrisyee.ca/momentopress/) | [Download Plugin](https://wordpress.org/plugins/cmyee-momentopress/)
 
