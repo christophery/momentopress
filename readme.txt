@@ -2,8 +2,8 @@
 Contributors: cmyee
 Tags: 360, VR, Virtual Reality, 360 degree photos, Momento360, 360 degree videos, Google Cardboard
 Requires at least: 4.8
-Tested up to: 5.5
-Stable tag: 1.0.1
+Tested up to: 6.3
+Stable tag: 1.0.2
 License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -83,6 +83,9 @@ This is not an official plugin by Momento360 and it is not affilated or supporte
 For questions regarding [Momento360](https://www.momento360.com/), please [view their support page](http://help.momento360.com/) or [view their FAQ](https://www.momento360.com/faq/).
 
 == Changelog ==
+
+= 1.0.2 =
+Security Update: Fixed XSS vulnerability in 'url' shortcode attribute (Thanks to NGÔ THIÊN AN (ancorn_ from VNPT-VCI))
 
 = 1.0.1 =
 Fixed CSS stylesheet path
