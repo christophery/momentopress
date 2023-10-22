@@ -36,9 +36,12 @@ function momentopress_shortcode( $atts = [], $content = null, $tag = '' ){
 		], $atts, $tag
 	);
 
+    //sanitize URL
+	$momentopress_url = sanitize_url( $momentopress_atts['url'], array( 'http', 'https' ) );
+
     //build embed code
 	$momentopress_embed = '<div class="momentopress-container">';
-	$momentopress_embed .=	'<iframe class="momentopress-embed" src="' . $momentopress_atts['url'] . '" allowfullscreen="allowfullscreen"></iframe>';
+	$momentopress_embed .=	'<iframe class="momentopress-embed" src="' . $momentopress_url . '" allowfullscreen="allowfullscreen"></iframe>';
 	$momentopress_embed .= '</div>';
 
 	//output embed code
